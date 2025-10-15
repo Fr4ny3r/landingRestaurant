@@ -8,6 +8,7 @@ import Location from './components/Location';
 import Comments from './components/Comments';
 import About from './components/About';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [activeCart, setActiveCart] = useState(false);
@@ -57,6 +58,7 @@ const menuItems = [
       <Comments />
       <About />
       <Contact />
+      <Footer />
     </>
   );
 }
