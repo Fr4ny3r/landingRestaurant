@@ -12,8 +12,8 @@ function HeroSection() {
           View Our Menu
         </button>  
       </div>
-      <div id="imgCover" className="z-100 max-w-120 hidden">
-        <img src="./imgCover.png" alt=""/>
+      <div id="imgCover" className="z-100 max-w-90 relative hidden md:block">
+        <img src="./coverimg_4.png" alt="" className=" contrast-110 opacity-80 brightness-90 "/>
       </div>
     </section>
   );
