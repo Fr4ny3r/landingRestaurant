@@ -6,6 +6,7 @@ import Featured from './components/Featured';
 import CartAside from './components/CartAside';
 import Location from './components/Location';
 import Comments from './components/Comments';
+import About from './components/About';
 
 function App() {
   const [activeCart, setActiveCart] = useState(false);
@@ -53,6 +54,7 @@ const menuItems = [
       <CartAside cart={cart} removeFromCart={removeFromCart} activeCart={activeCart}/>
       <Location />
       <Comments />
+      <About />
     </>
   );
 }
