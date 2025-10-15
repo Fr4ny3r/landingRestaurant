@@ -1,6 +1,6 @@
 function HeroSection() {
   return (
-    <section id="hero" className="relative overflow-hidden z-100 h-[80dvh] flex flex-col md:flex-row justify-around items-center container mx-auto text-center">
+    <section id="hero" className="relative overflow-hidden z-100 h-[50dvh] sm:h-[80dvh] flex flex-col md:flex-row justify-around items-center container mx-auto text-center">
       <img src="./restCover.png" alt="restCover" className="h-full  md:h-fit opacity-85 dark:opacity-35 absolute"/>
       <span id="coverHero"></span>
       <div className="z-100 md:text-left">
@@ -9,11 +9,11 @@ function HeroSection() {
         <h1 className="text-[var(--color-titles)] text-5xl font-extrabold mb-4">Delicious <span className="bg-[var(--color-secondary)] -ml-2 text-3xl px-3 py-2 rounded rounded-xl">Eats</span></h1>
         <p className="text-[var(--color-subtitles)] text-lg mb-8">Experience the finest cuisine with fresh ingredients and exceptional service.</p>
         <button className="font-semibold bg-[var(--color-primary)] text-[var(--color-text)] px-6 py-2 rounded hover:bg-[var(--color-secondary)] hover:cursor-pointer transition ">
-          View Our Menu
+          <a href="#menu">View Our Menu</a>
         </button>  
       </div>
       <div id="imgCover" className="z-100 max-w-90 relative hidden md:block">
-        <img src="./coverimg_4.png" alt="" className=" contrast-110 opacity-80 brightness-90 "/>
+        <img src="./coverimg_4.png" alt="" className=" contrast-110 dark:opacity-80 invert dark:invert-0 brightness-90 "/>
       </div>
     </section>
   );
