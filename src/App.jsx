@@ -7,6 +7,7 @@ import CartAside from './components/CartAside';
 import Location from './components/Location';
 import Comments from './components/Comments';
 import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
   const [activeCart, setActiveCart] = useState(false);
@@ -55,6 +56,7 @@ const menuItems = [
       <Location />
       <Comments />
       <About />
+      <Contact />
     </>
   );
 }
