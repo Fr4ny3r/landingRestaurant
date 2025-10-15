@@ -50,6 +50,11 @@
   
 }
 
+  #map{
+    display: none;
+  }
+
+
 html {
 
 @apply bg-[var(--color-background)];
@@ -61,8 +66,12 @@ overflow-x: hidden;
   #coverHero{
     backdrop-filter: blur(3px);
   }
-}
 
+    #map{
+    display: block;
+  }
+
+}
 
 
 @media (prefers-color-scheme: light) {
