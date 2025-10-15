@@ -35,8 +35,8 @@ function MenuSection({ addToCart, setActiveCart, menuItems }) {
                 Add to Cart
               </button>
             </div>
-            <div className="max-h-full ">
-              <img src={item.img} alt={item.name} className="" />
+            <div className="max-h-full rounded-xl overflow-hidden flex justify-center items-center">
+              <img src={item.img} alt={item.name} className="rounded-xl" />
             </div>
           </div>
         ))}

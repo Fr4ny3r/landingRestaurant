@@ -66,8 +66,8 @@ function Featured({ menuItems, setActiveCart, activeCart, addToCart }) {
                 </span>                          
               </div>
             </div>
-            <div className="max-h-full flex justify-center items-center  md:max-h-[500px] lg:max-h-[600px] xl:max-h-[700px] 2xl:max-h-[800px]">
-              <img id="imgFeatured" src={item.img} alt={item.name} className='max-w-8/12 md:max-w-full'/>
+            <div className="max-h-full flex justify-center items-center rounded-xl  md:max-h-[500px] lg:max-h-[600px] xl:max-h-[700px] 2xl:max-h-[800px]">
+              <img id="imgFeatured" src={item.img} alt={item.name} className='max-w-8/12 md:max-w-full rounded-xl'/>
             </div>
           </div>
         ))}
