@@ -1,6 +1,6 @@
 function HeroSection() {
   return (
-    <section id="hero" className="relative overflow-hidden z-100 h-[50dvh] sm:h-[80dvh] flex flex-col md:flex-row justify-around items-center container mx-auto text-center">
+    <section id="hero" className="relative overflow-hidden z-100 h-[80dvh] flex flex-col md:flex-row justify-around items-center container mx-auto text-center">
       <img src="./restCover.png" alt="restCover" className="h-full  md:h-fit opacity-85 dark:opacity-35 absolute"/>
       <span id="coverHero"></span>
       <div className="z-100 md:text-left">
